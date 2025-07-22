@@ -82,7 +82,7 @@ pip install psycopg2
 3. 🗄️ Set Up the PostgreSQL Database
 Create a PostgreSQL database (e.g. movie_app).
 
-Locate and open the db/connection.py file.
+Locate and open the db/create_db1.py file.
 
 Update the connection settings with your PostgreSQL credentials:
 ```bash
@@ -93,6 +93,11 @@ conn = psycopg2.connect(
     password="your_password"
 )
 ```
+Then open the init_db 2.py file. Be sure to change the connection settings as well. 
+Run the Final table edits 3.py file as well
+
+Then locate logic/to add movies 4.py, update connection settings and run.
+Then do the same for to add shows to movies 5.py and to add admin 6.py for admin users.
 
 4. ▶️ Run the Application
 From your terminal:
