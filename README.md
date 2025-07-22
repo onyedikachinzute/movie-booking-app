@@ -56,3 +56,24 @@ movie-booking-app/
 ├── main.py # Entry point of the application
 ├── README.md # This file
 ├── LICENSE # MIT License
+
+
+## 🧪 How to Run
+
+Follow these steps to set up and run the Movie Booking App on your machine:
+
+### 1. 📁 Clone the Repository
+
+Open a terminal and run:
+
+```bash
+git clone https://github.com/onyedikachinzute/movie-booking-app.git
+cd movie-booking-app
+
+2. 📦 Install Dependencies
+Make sure you have Python and pip installed.
+
+Install the required package:
+```bash
+pip install psycopg2
+
