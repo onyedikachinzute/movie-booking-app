@@ -68,7 +68,8 @@ Open a terminal and run:
 
 ```bash
 git clone https://github.com/onyedikachinzute/movie-booking-app.git
-cd movie-booking-app
+cd movie-booking-app 
+```
 
 2. 📦 Install Dependencies
 Make sure you have Python and pip installed.
@@ -76,4 +77,25 @@ Make sure you have Python and pip installed.
 Install the required package:
 ```bash
 pip install psycopg2
+```
 
+3. 🗄️ Set Up the PostgreSQL Database
+Create a PostgreSQL database (e.g. movie_app).
+
+Locate and open the db/connection.py file.
+
+Update the connection settings with your PostgreSQL credentials:
+```bash
+conn = psycopg2.connect(
+    host="localhost",
+    database="movie_app",
+    user="your_username",
+    password="your_password"
+)
+```
+
+4. ▶️ Run the Application
+From your terminal:
+```bash
+python main.py
+```
