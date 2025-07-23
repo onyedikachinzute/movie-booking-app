@@ -104,6 +104,10 @@ def apply_on_delete_cascade():
         if conn:
             cur.close()
             conn.close()
+            
+def main():
+    apply_on_delete_cascade()
+    
 
 if __name__ == "__main__":
-    apply_on_delete_cascade()
+    main()

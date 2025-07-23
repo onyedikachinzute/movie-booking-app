@@ -103,6 +103,9 @@ def create_tables():
     print("✅ Tables created and initialized.")
     cur.close()
     conn.close()
+    
+def main():
+    create_tables()
 
 if __name__ == "__main__":
-    create_tables()
+    main()

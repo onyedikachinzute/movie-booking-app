@@ -11,21 +11,8 @@ Admins can manage movies, shows, and view bookings.
 
 ## Setup
 
-1. Follow these steps accordingly.
-
-2. Run the create_db.py file in db
-
-3. Run the init_db.py file in db
-
-4. Run the Final table edits.py file in db
-
-5. Run the to add movies.py file in logic
-
-6. Run the to add shows.py file in logic
-
-7. For admin users or clients, run the to add admin.py file in logic
-
-8. Run the main.py file in the main directory
+1. Run the initdb.py file in the main directory (For first time setup only!!!)
+2. Run the main.py file in the main directory
 
 Install required Python packages  
 `pip install psycopg2`
@@ -36,5 +23,5 @@ Install required Python packages
 
 
 Contributions are welcome! Please open issues or submit pull requests.
-This project was made by PAU students; Onyedikachi, Ariana, Ibukun, Korede, Timilehin and Kyrian.
+This project was made by PAU students; Onyedikachi, etc.
 This project is licensed under the MIT License.

@@ -2,6 +2,7 @@ import tkinter as tk
 from ui.login_ui import LoginWindow
 from ui.register_ui import RegisterWindow
 
+
 class MainApp(tk.Tk):   
     def __init__(self):
         super().__init__()
