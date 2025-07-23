@@ -93,13 +93,14 @@ conn = psycopg2.connect(
     password="your_password"
 )
 ```
-Then open the init_db 2.py file. Be sure to change the connection settings as well. 
-Run the Final table edits 3.py file as well
 
-Then locate logic/to add movies 4.py, update connection settings and run.
-Then do the same for to add shows to movies 5.py and to add admin 6.py for admin users.
+4. ▶️ Run the Initialization Application
+From your terminal:
+```bash
+python initdb.py
+```
 
-4. ▶️ Run the Application
+5. ▶️ Run the Application
 From your terminal:
 ```bash
 python main.py
