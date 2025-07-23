@@ -82,7 +82,7 @@ pip install psycopg2
 3. 🗄️ Set Up the PostgreSQL Database
 Create a PostgreSQL database (e.g. movie_app).
 
-Locate and open the db/create_db1.py file.
+Locate and open the db/create_db1.py file and other related files in db and the project.
 
 Update the connection settings with your PostgreSQL credentials:
 ```bash
